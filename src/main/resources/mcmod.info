@@ -1,8 +1,8 @@
 [
 {
-  "modid": "wheatfieldwitlwolf",
-  "name": "wheatfieldwitlwolf",
-  "description": "wheatfieldwitlwolf",
+  "modid": "golden_psalms",
+  "name": "GoldenPsalms",
+  "description": "GoldenPsalms",
   "version": "Day-1",
   "mcversion": "${mcversion}",
   "url": "",
