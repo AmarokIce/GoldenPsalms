@@ -63,7 +63,7 @@ public class GoldenPsalms {
         WWWApi.POT_RECIPES.add(new RecipePot(getItemByBuilder(ItemInit.BAKE_CHEESE), null, ItemList.toast, ItemList.cheese, ItemList.cheese, ItemList.tomato));
         GameRegistry.addShapedRecipe(getItemByBuilder(ItemInit.SUGAR_COOKIE, 8), "WSW", 'S', Items.sugar, 'W', Items.wheat);
         GameRegistry.addShapedRecipe(getItemByBuilder(ItemInit.SOFT_CAKE), "S S", "WEW", 'S', Items.sugar, 'W', Items.wheat, 'E', Items.egg);
-        GameRegistry.addShapedRecipe(getItemByBuilder(ItemInit.WHEAT_CRACKER, 4), "W W", 'W', Items.wheat);
+        GameRegistry.addShapedRecipe(getItemByBuilder(ItemInit.WHEAT_CRACKER), "W W", 'W', ItemList.cornmeal);
         GameRegistry.addShapedRecipe(getItemByBuilder(ItemInit.BAGEL), " W ", "W W", " W ", 'W', Items.wheat);
         GameRegistry.addShapedRecipe(getItemByBuilder(ItemInit.DONUT), " M ", "WSW", " W ", 'W', Items.wheat, 'M', Items.milk_bucket, 'S', Items.sugar);
         WWWApi.POT_RECIPES.add(new RecipePot(getItemByBuilder(ItemInit.EGG_TART, 2), null, Items.wheat, Items.wheat, Items.egg, Items.egg));
@@ -72,7 +72,7 @@ public class GoldenPsalms {
         GameRegistry.addShapelessRecipe(getItemByBuilder(ItemInit.SWISS_ROLL), getItemByBuilder(ItemInit.SOFT_CAKE), Items.milk_bucket);
         WWWApi.CUT_RECIPES.put(new ItemStack(Blocks.cake), getItemByBuilder(ItemInit.SMALL_CAKE, 5));
         GameRegistry.addShapelessRecipe(getItemByBuilder(ItemInit.BURGER), getItemByBuilder(ItemInit.BUM), ItemList.cooked_meat_stuffing, ItemList.cut_tomato, ItemList.lettuce, ItemList.cheese);
-        GameRegistry.addShapelessRecipe(getItemByBuilder(ItemInit.SANDWICH), ItemList.toast, ItemList.toast, ItemList.bacon, ItemList.cut_tomato, ItemList.cheese);
+        GameRegistry.addShapelessRecipe(getItemByBuilder(ItemInit.SANDWICH), ItemList.toast, ItemList.toast, ItemList.cooked_bacon, ItemList.cut_tomato, ItemList.cheese);
         WWWApi.POT_RECIPES.add(new RecipePot(getItemByBuilder(ItemInit.HOTDOG), getItemByBuilder(ItemInit.BUM), Items.cooked_porkchop, ItemList.cut_tomato, ItemList.butter));
 
         WWWApi.POT_RECIPES.add(new RecipePot(getItemByBuilder(ItemInit.BEER), new ItemStack(Items.glass_bottle), Items.wheat, Items.wheat, Items.potionitem));

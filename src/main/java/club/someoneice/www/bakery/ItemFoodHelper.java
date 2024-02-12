@@ -18,6 +18,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public final class ItemFoodHelper extends ItemFood {
     public static final String REGISTER_NAME = "item_food_base";
     public static final List<Builder> items = Lists.newArrayList();
@@ -144,9 +145,8 @@ public final class ItemFoodHelper extends ItemFood {
             return this;
         }
 
-        public Builder build() {
+        public void build() {
             ItemFoodHelper.items.add(this);
-            return this;
         }
 
         public ItemStack finishUsingItem(ItemStack item, World world, EntityPlayer player) {
