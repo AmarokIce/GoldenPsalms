@@ -22,7 +22,7 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: "maven-publish"
 
-version = "0.0.1"
+version = "Day-1"
 group= "club.someoneice.www.bakery"
 archivesBaseName = "GoldenPsalms"
 
